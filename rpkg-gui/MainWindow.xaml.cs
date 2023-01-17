@@ -1463,9 +1463,9 @@ namespace rpkg
 						}
 						else if (hashType == "TEMP")
 						{
-							string[] buttons = { "Extract " + hashName, "Extract to QN (QuickEntity v2.1) JSON", "View " + hashName + " in Brick/Entity Viewer (Recursive)", "View " + hashName + " in Brick/Entity Viewer (Non-Recursive)", "Extract PRIM Models linked to " + hashName + " To GLB/TGA File(s)", "Extract PRIMs linked to " + hashName + " To GLB File(s)", "Cancel" };
+							string[] buttons = { "Extract " + hashName, "Extract To Hitman 3 RT (ResourceTool) JSON", "Extract To Hitman 2 RT (ResourceTool) JSON", "Extract To Hitman 2016 RT (ResourceTool) JSON", "View " + hashName + " in Brick/Entity Viewer (Recursive)", "View " + hashName + " in Brick/Entity Viewer (Non-Recursive)", "Extract PRIM Models linked to " + hashName + " To GLB/TGA File(s)", "Extract PRIMs linked to " + hashName + " To GLB File(s)", "Cancel" };
 
-							buttonCount = 7;
+							buttonCount = 9;
 
 							rightClickMenu = new RightClickMenu(buttons);
 						}
